@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+
+
+
+
+<head>
+	<meta charset="utf-8">
+	<title>Learning to learn. - Jonathan Chang</title>
+	<link rel="canonical" href="http://localhost:4000/ucla/">
+	<meta name="description" content="Artificial Intelligence trends and concepts made easy.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:4000"},
+  "headline": "Learning to learn.",
+  "abstract": "",
+    "keywords": "",
+    "wordcount": "459",
+    "image": ["http://localhost:4000/assets/img"],
+  "datePublished": "",
+  "dateModified": "",
+  "author": {
+    "@type": "Person",
+    "name": ""},
+  "publisher": {
+    "@type":  "Organization",
+    "logo": {
+        "@type": "ImageObject",
+        "encodingFormat": "image/png",
+        "contentUrl": "http://localhost:4000/assets/img/branding/MVM-symbol-black.png",
+        "url": "http://localhost:4000/assets/img/branding/MVM-symbol-black.png"},
+    "name" : "Jonathan Chang"}
+}
+</script>
+<!-- Open Graph data -->
+<meta property="og:url" content="http://localhost:4000/ucla/"/>
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="Learning to learn."/>
+<meta property="og:description" content=""/>
+<meta property="og:image" content="http://localhost:4000/assets/img"/>
+<meta property="og:image:alt" content="Learning to learn."/>
+<meta property="og:site_name" content="Jonathan Chang" />
+<meta property="article:published_time" content="" />
+<meta property="article:modified_time" content="" />
+<meta property="article:tag" content="" />
+<meta property="fb:admins" content="j.a.chang820" />
+<!-- Schema.org markup for Google -->
+<meta itemprop="name" content="Learning to learn.">
+<meta itemprop="description" content="">
+<meta itemprop="image" content="http://localhost:4000/assets/img">
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="">
+<meta name="twitter:title" content="Learning to learn.">
+<meta name="twitter:description" content="">
+<meta name="twitter:creator" content="">
+<meta data-rh="true" name="twitter:label1" content="Word count"/>
+<meta data-rh="true" name="twitter:data1" content="459"/>
+<meta name="twitter:image:src" content="http://localhost:4000/assets/img/">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#311e3e">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#311e3e">
+	<!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Source+Sans+Pro:wght@400;600&family=Source+Sans+Pro:wght@200;400;700&display=swap" rel="stylesheet">
+	<!-- Font Awesome -->
+	<script src="https://kit.fontawesome.com/3e427d31d3.js" crossorigin="anonymous"></script>
+	<!-- Splide (carousel) -->
+	<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.9/dist/js/splide.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.9/dist/css/splide.min.css">
+	<!-- Styles -->
+	<link rel="stylesheet" href="../assets/css/main.css">
+	
+
+
+
+
+<link rel="icon" href="../assets/img/favicon/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="../assets/img/favicon/favicon.ico">
+<link rel="apple-touch-icon" sizes="72x72" href="../assets/img/favicon/favicon.ico">
+<link rel="apple-touch-icon" sizes="114x114" href="../assets/img/favicon/favicon.ico">
+	
+</head>
+
+  <body>
+    <div class="flex-container transparent">
+  
+
+
+
+
+<header class="main-header">
+  <div class="wrapper">
+    <div class="header-flex">
+      <div class="menu-icon-container">
+        <span class="menu-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+      </div>
+      <nav class="main-nav">
+        <span class="menu-icon-close"><i class="fa fa-times" aria-hidden="true"></i></span>
+        <ul>
+        
+          
+          
+          <li>
+            <a href="../../" 
+              >
+              <div class="left">
+                Home
+              </div>  
+              
+              <div class="right">
+                <span class="fas fa-home"></span>
+              </div>
+              
+            </a>
+          </li>
+        
+          
+          
+          <li>
+            <a href="../../past_career/" 
+              >
+              <div class="left">
+                Past Career
+              </div>  
+              
+              <div class="right">
+                <span class="fas fa-boxes"></span>
+              </div>
+              
+            </a>
+          </li>
+        
+          
+          
+          <li>
+            <a href="../../ucla/" 
+              >
+              <div class="left">
+                UCLA
+              </div>  
+              
+              <div class="right">
+                <span class="fas fa-graduation-cap"></span>
+              </div>
+              
+            </a>
+          </li>
+        
+          
+          
+          <li>
+            <a href="../../mitx/" 
+              >
+              <div class="left">
+                MITx Micromasters in Statistics, Data Science
+              </div>  
+              
+              <div class="right">
+                <span class="fas fa-code-branch"></span>
+              </div>
+              
+            </a>
+          </li>
+        
+          
+          
+          <li>
+            <a href="../../asu/" 
+              >
+              <div class="left">
+                ASU MasterTrack in Cybersecurity
+              </div>  
+              
+              <div class="right">
+                <span class="fas fa-lock"></span>
+              </div>
+              
+            </a>
+          </li>
+        
+          
+          
+          <li>
+            <a href="../../writings/" 
+              >
+              <div class="left">
+                Writing
+              </div>  
+              
+              <div class="right">
+                <span class="fas fa-pen"></span>
+              </div>
+              
+            </a>
+          </li>
+        
+          
+          
+          <li>
+            <a href="../../assets/resume.pdf" 
+              target="_blank">
+              <div class="left">
+                Resume
+              </div>  
+              
+              <div class="right">
+                <span class="fas fa-id-card"></span>
+              </div>
+              
+            </a>
+          </li>
+        
+        </ul>
+      </nav>
+
+      <a href="../">JONATHAN CHANG</a>
+      
+      <div class="search-icon-container">
+        <span class="search-icon"><a><i class="fa fa-search" aria-hidden="true"></i></a></span>
+      </div>
+    </div>
+  </div>
+</header> <!-- End Header -->
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Learning to learn.">
+
+
+
+    <div class="page-image">
+      <div class="cover-image" style="background-image: linear-gradient(to top, #8ea8a5 15px, transparent 100px), url('header.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover;"></div>
+    </div>
+    <div class="wrapper">
+      <div class="page-content">
+        <div class="header-page">
+          <h1 class="page-title">Learning to learn.</h1>
+          
+
+        </div>
+        
+        
+<figure>
+    <img src="ucla_diploma.jpg" alt="UCLA diploma framed" />
+    <figcaption>
+        
+            <p>UCLA diploma framed</p>
+        
+    </figcaption>
+</figure>
+
+<p>UCLA taught me a lot, but most importantly it gave me the tools and confidence to research what <em>I</em> wanted to learn. That there is no magic authority that grants or disseminate knowledge. They could all be found in textbooks and other references.</p>
+
+<p>Within electrical engineering, I had found that <em>signals</em> was the most interesting subject. The techniques used there are heavily rooted in mathematical and statistical theory, with modulation schemes and noise rejection. It really opened my eyes when I realized how many domains this could be applicable to. It wasn’t necessarily radio signals that I loved, but the idea that these mathematical concepts had a direct application. That math, and by extension computer science, is a formalization of the problems that I wanted to solve.</p>
+
+<p>Our engineering major had a <strong>technical breadth</strong> requirement of three courses in an area complementary to electrical engineering. Once I discovered my passion in software, I took more than the requisite number. For topics that I couldn’t take at UCLA, I looked online to massively online open courseware (MOOCs). Together with my technical breadth courses, I credit a couple <a href="https://courses.edx.org/certificates/8d40d339271b4af993782c33bb4fc5c2" target="blank">online courses</a> toward helping me be able to contribute to my eventual team, Wild Cardinals, that would win the <em>top prize</em> at the university data science hackathon, <strong>DataFest 2019</strong>.</p>
+
+<figure>
+    <img src="datafest2019.jpg" alt="UCLA DataFest 2019 team" />
+    <figcaption>
+        
+            <a href="http://datafest.stat.ucla.edu/past-datafests/2019-asa-datafesttm-results/" target="blank">UCLA DataFest 2019 team</a>
+            <div><span class="fas fa-external-link-alt"></span></div>
+        
+    </figcaption>
+</figure>
+
+<h2 id="computer-science-courses-taken">Computer Science Courses Taken</h2>
+
+<h3 id="operating-systems">Operating Systems</h3>
+
+<p>The assignments from this course consists of some programs that perform Linux client and server operation, atomic operations on list sorting, simplistic file system analysis, and setting up an IoT server that monitors and reports temperature. These are written primarily in <strong>C</strong>, and some <strong>Ruby</strong>.</p>
+
+<div class="focus-panel">
+  <div class="focus-inner">
+    <span class="fas fa-angle-double-right"></span>
+    <a class="focus-link" href="https://github.com/jachang820/some-low-level-tasks" target="blank">
+    Client and Server, Multithreading, and IoT (Github)
+    </a>
+  </div>
+</div>
+
+<h3 id="data-mining">Data Mining</h3>
+
+<p>A Kaggle competition was set up for the class for the prediction of Yelp scores based on reviews and various other features. The following project was mostly written in <strong>R</strong>.</p>
+
+<div class="focus-panel">
+  <div class="focus-inner">
+    <span class="fas fa-angle-double-right"></span>
+    <a class="focus-link" href="https://github.com/jachang820/cs145" target="blank">
+    Prediction of Yelp Reviews (Github)
+    </a>
+  </div>
+</div>
+
+<h3 id="robotics">Robotics</h3>
+
+<p>The assignment topic revolved around robot communication and kinematic linkages. The first project was intended to control musical instruments using an online interface. The second project was intended to move a robot using an online interface. However, for the second project, only a front-end simulation with controls was produced. Both projects were written with <strong>Javascript</strong> and <strong>Python (Django)</strong>, and <strong>C++</strong> on the Arduino side.</p>
+
+<div class="focus-panel">
+  <div class="focus-inner">
+    <span class="fas fa-angle-double-right"></span>
+    <a class="focus-link" href="https://github.com/jachang820/InstrumentPlayingRobot" target="blank">
+    Instrument Playing Robot (Github)
+    </a>
+  </div>
+</div>
+
+<div class="focus-panel">
+  <div class="focus-inner">
+    <span class="fas fa-angle-double-right"></span>
+    <a class="focus-link" href="https://github.com/jachang820/Mobile-Robot-Simulator" target="blank">
+    Mobile Robot Simulator (Github)
+    </a>
+  </div>
+</div>
+
+<h3 id="others">Others</h3>
+
+<ul>
+  <li>Logic design and digital systems</li>
+  <li>Computer organization</li>
+  <li>Introduction to computer architecture</li>
+  <li>Algorithms and complexity</li>
+  <li>Formal languages and automata</li>
+  <li>Machine learning</li>
+  <li>Programming languages</li>
+  <li>Communications networks</li>
+</ul>
+
+      </div>
+    </div> <!-- End Wrapper -->
+  </article>
+  <div class="top">
+      <span class="fas fa-angle-up"></span>
+</div>
+  <div class="search-box">
+  <div class="wrapper">
+    <div class="search-grid">
+      <form class="search-form">
+        <div id="search-container">
+          <input type="text" id="search-input" class="search" placeholder="Search">
+        </div>
+      </form>
+      <ul id="results-container" class="results-search"></ul>
+      <div class="icon-close-container">
+        <span class="search-icon-close"><i class="fa fa-times" aria-hidden="true"></i></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+
+
+
+
+<footer class="main-footer">
+    <div class="footer-wrapper">
+        
+
+
+
+<section class="author-box">
+  <div class="narrow-column">
+    <a href=''><img src="../assets/img/profile.jpg" alt="Jonathan Chang" class="author-img"></a>
+    
+  </div>
+  <div class="author-desc">
+    <h2>Jonathan Chang</h2>
+    <div class="social-panel">
+
+    <a class="social-link social-linkedin" href="https://www.linkedin.com/in/jachang820/" title="linkedin" rel="nofollow" target="_blank"><span class="fab fa-linkedin" aria-hidden="true"></span></a>
+
+    <a class="social-link social-github" href="https://github.com/jachang820" title="github" rel="nofollow" target="_blank"><span class="fab fa-github" aria-hidden="true"></span></a>
+
+    <a class="social-link social-facebook" href="https://www.facebook.com/j.a.chang820/" title="facebook" rel="nofollow" target="_blank"><span class="fab fa-facebook" aria-hidden="true"></span></a>
+
+    <a class="social-link social-instagram" href="https://www.instagram.com/jchang820/" title="instagram" rel="nofollow" target="_blank"><span class="fab fa-instagram" aria-hidden="true"></span></a>
+
+    <a class="social-link social-email" href="mailto:j.a.chang820@gmail.com" title="email" rel="nofollow" target="_blank"><span class="fas fa-at" aria-hidden="true"></span></a>
+
+</div>
+  </div>
+</section>
+
+    </div>
+</footer>
+
+</div>
+
+    
+
+
+
+
+<!-- JS -->
+
+<script src="../assets/js/jekyll-search.js"></script>
+<script src="../assets/js/jquery-3.6.0.min.js"></script>
+
+
+
+
+
+
+
+<script src="../assets/js/main.js"></script>
+<script>
+  SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      json: '../search.json',
+      searchResultTemplate: '<li><a href="{url}" title="{description}">{title}</a><p>{description}</p></li>',
+      noResultsText: 'No results found',
+      fuzzy: false,
+      exclude: ['Welcome']
+    });
+</script>
+
+
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QJCXGPB46F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-QJCXGPB46F');
+</script>
+  </body>
+</html>
