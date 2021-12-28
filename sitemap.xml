@@ -4,24 +4,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/404.html</loc>
+      <loc>http://www.jonchang.org/404.html</loc>
       
-        <lastmod>2021-12-15T16:34:30-08:00</lastmod>
-      
-      
-        <changefreq>daily</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/about.html</loc>
-      
-        <lastmod>2021-12-15T16:34:30-08:00</lastmod>
+        <lastmod>2021-12-28T13:28:03-08:00</lastmod>
       
       
         <changefreq>daily</changefreq>
@@ -34,24 +19,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/all-posts.json</loc>
+      <loc>http://www.jonchang.org/about.html</loc>
       
-        <lastmod>2021-12-15T16:34:30-08:00</lastmod>
-      
-      
-        <changefreq>daily</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/archive.html</loc>
-      
-        <lastmod>2021-12-15T16:34:30-08:00</lastmod>
+        <lastmod>2021-12-28T13:28:03-08:00</lastmod>
       
       
         <changefreq>daily</changefreq>
@@ -64,24 +34,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/blogs.html</loc>
+      <loc>http://www.jonchang.org/all-posts.json</loc>
       
-        <lastmod>2021-12-15T16:34:30-08:00</lastmod>
-      
-      
-        <changefreq>daily</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/asu/</loc>
-      
-        <lastmod>2021-12-15T16:34:30-08:00</lastmod>
+        <lastmod>2021-12-28T13:28:03-08:00</lastmod>
       
       
         <changefreq>daily</changefreq>
@@ -94,24 +49,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/mitx/</loc>
+      <loc>http://www.jonchang.org/archive.html</loc>
       
-        <lastmod>2021-12-15T16:34:30-08:00</lastmod>
-      
-      
-        <changefreq>daily</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/</loc>
-      
-        <lastmod>2021-12-15T16:34:30-08:00</lastmod>
+        <lastmod>2021-12-28T13:28:03-08:00</lastmod>
       
       
         <changefreq>daily</changefreq>
@@ -124,41 +64,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/ipfs-404.html</loc>
+      <loc>http://www.jonchang.org/blogs.html</loc>
       
-        <lastmod>2021-12-15T16:34:30-08:00</lastmod>
-      
-      
-        <changefreq>daily</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/past_career/</loc>
-      
-        <lastmod>2021-12-15T16:34:30-08:00</lastmod>
-      
-      
-        <changefreq>daily</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/posts-by-tag.json</loc>
-      
-        <lastmod>2021-12-15T16:34:30-08:00</lastmod>
+        <lastmod>2021-12-28T13:28:03-08:00</lastmod>
       
       
         <changefreq>daily</changefreq>
@@ -171,9 +79,69 @@
   
     
     <url>
-      <loc>http://localhost:4000/search.json</loc>
+      <loc>http://www.jonchang.org/asu/</loc>
       
-        <lastmod>2021-12-15T16:34:30-08:00</lastmod>
+        <lastmod>2021-12-28T13:28:03-08:00</lastmod>
+      
+      
+        <changefreq>daily</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://www.jonchang.org/mitx/</loc>
+      
+        <lastmod>2021-12-28T13:28:03-08:00</lastmod>
+      
+      
+        <changefreq>daily</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://www.jonchang.org/</loc>
+      
+        <lastmod>2021-12-28T13:28:03-08:00</lastmod>
+      
+      
+        <changefreq>daily</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://www.jonchang.org/ipfs-404.html</loc>
+      
+        <lastmod>2021-12-28T13:28:03-08:00</lastmod>
+      
+      
+        <changefreq>daily</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://www.jonchang.org/past_career/</loc>
+      
+        <lastmod>2021-12-28T13:28:03-08:00</lastmod>
       
       
         <changefreq>daily</changefreq>
@@ -188,24 +156,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/tag.html</loc>
+      <loc>http://www.jonchang.org/posts-by-tag.json</loc>
       
-        <lastmod>2021-12-15T16:34:30-08:00</lastmod>
-      
-      
-        <changefreq>daily</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/tags.html</loc>
-      
-        <lastmod>2021-12-15T16:34:30-08:00</lastmod>
+        <lastmod>2021-12-28T13:28:03-08:00</lastmod>
       
       
         <changefreq>daily</changefreq>
@@ -218,9 +171,26 @@
   
     
     <url>
-      <loc>http://localhost:4000/ucla/</loc>
+      <loc>http://www.jonchang.org/search.json</loc>
       
-        <lastmod>2021-12-15T16:34:30-08:00</lastmod>
+        <lastmod>2021-12-28T13:28:03-08:00</lastmod>
+      
+      
+        <changefreq>daily</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+  
+    
+    <url>
+      <loc>http://www.jonchang.org/tag.html</loc>
+      
+        <lastmod>2021-12-28T13:28:03-08:00</lastmod>
       
       
         <changefreq>daily</changefreq>
@@ -233,9 +203,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/writings/</loc>
+      <loc>http://www.jonchang.org/tags.html</loc>
       
-        <lastmod>2021-12-15T16:34:30-08:00</lastmod>
+        <lastmod>2021-12-28T13:28:03-08:00</lastmod>
       
       
         <changefreq>daily</changefreq>
@@ -248,9 +218,39 @@
   
     
     <url>
-      <loc>http://localhost:4000/feed.xml</loc>
+      <loc>http://www.jonchang.org/ucla/</loc>
       
-        <lastmod>2021-12-15T16:34:30-08:00</lastmod>
+        <lastmod>2021-12-28T13:28:03-08:00</lastmod>
+      
+      
+        <changefreq>daily</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://www.jonchang.org/writings/</loc>
+      
+        <lastmod>2021-12-28T13:28:03-08:00</lastmod>
+      
+      
+        <changefreq>daily</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://www.jonchang.org/feed.xml</loc>
+      
+        <lastmod>2021-12-28T13:28:03-08:00</lastmod>
       
       
         <changefreq>daily</changefreq>
